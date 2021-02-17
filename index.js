@@ -2,15 +2,10 @@ const fetch = require('node-fetch');
 const getSymbols = require('./symbols').getSymbols;
 const _ = require('lodash');
 
-const EXCLUDED_SYMBOLS = ["VERY", "EDIT", "GO", "ON", "IT", "HI", "GO", "SO", "EVER", "CAN", "AN", "HE", "LOW", "AT", "DD"]
-
 async function main() {
   console.log("working")
 
   var symbols = await getSymbols()
-
-  symbols=symbols.filter(s => s.length > 1);
-  symbols=symbols.filter(s => !EXCLUDED_SYMBOLS.includes(s))
 
   console.log(symbols.length)
 
@@ -18,7 +13,7 @@ async function main() {
   for (var i = 1; i <= 5; i++){
     const weekComments = await getComments((i*7+7)+"d", (i*7)+"d");
 
-    const weekSymbolWeights = _.sortBy(symbols.map(s => { return { name: s, score: _.sumBy(weekComments.filter(c => c.body.includes(s)), "score") } }).filter(sw => sw.score > 0), "score");
+    const weekSymbolWeights = _.sortBy(symbols.map(s => { return { name: s, score: _.sumBy(weekComments.filter(c => c.body.toLowerCase().includes(` ${s.toLowerCase()} `)), "score") } }).filter(sw => sw.score > 0), "score");
 
     weekWeights = [...weekWeights, weekSymbolWeights];
 

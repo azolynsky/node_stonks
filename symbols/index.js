@@ -11,9 +11,20 @@ module.exports = {getSymbols: async function getSymbols() {
             }
             
             text = data;
-            const record_num = 11;  // or however many elements there are in each row
             var allTextLines = text.split(/\r\n|\n/);
-            resolve(allTextLines.map(l => l.split(",")[0]));
+            var allSymbols = allTextLines.map(l => l.split(",")[0]);
+
+            fs.readFile('./symbols/englishWords.txt', 'utf8', (err, data) => {
+                if (err) {
+                    console.error(err)
+                    return
+                }
+                
+                text = data;
+                var allWords = text.split(/\r\n|\n/);
+                allWords = allWords.map(w => w.toUpperCase())
+                resolve(allSymbols.filter(s => !allWords.includes(s)))
+            })
         })
     })
 }
