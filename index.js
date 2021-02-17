@@ -53,7 +53,7 @@ async function getPosts() {
   return new Promise((resolve, reject) => {
     let returnData = null;
 
-    fetch('http://api.pushshift.io/reddit/submission/search?subreddit=robinhoodpennystocks&sort_type=score&sort=desc&size=100')
+    fetch('http://api.pushshift.io/reddit/submission/search?subreddit=robinhoodpennystocks&sort_type=score&sort=desc&size=500')
       .then(response => response.json())
       .then(data => { 
         returnData = data.data;
@@ -73,7 +73,7 @@ async function getComments(start, end, searchTerm) {
     suffix += searchTerm ? `&q=${searchTerm}` : "";
 
     try{
-      fetch("http://api.pushshift.io/reddit/comment/search?subreddit=robinhoodpennystocks&sort_type=score&sort=desc&size=100" + suffix)
+      fetch("http://api.pushshift.io/reddit/comment/search?subreddit=robinhoodpennystocks&sort_type=score&sort=desc&size=500" + suffix)
         .then(response => response.json())
         .then(data => {resolve(data.data)})
     }
