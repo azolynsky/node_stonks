@@ -1,0 +1,888 @@
+[
+    [
+        {
+            "name": "PETS",
+            "score": 29
+        },
+        {
+            "name": "API",
+            "score": 33
+        },
+        {
+            "name": "BBI",
+            "score": 33
+        },
+        {
+            "name": "BIMI",
+            "score": 33
+        },
+        {
+            "name": "CGIX",
+            "score": 33
+        },
+        {
+            "name": "PTE",
+            "score": 33
+        },
+        {
+            "name": "IMO",
+            "score": 33
+        },
+        {
+            "name": "PDT",
+            "score": 33
+        },
+        {
+            "name": "THC",
+            "score": 41
+        },
+        {
+            "name": "X",
+            "score": 45
+        },
+        {
+            "name": "SNGX",
+            "score": 48
+        },
+        {
+            "name": "SOS",
+            "score": 48
+        },
+        {
+            "name": "ZOM",
+            "score": 110
+        },
+        {
+            "name": "AGTC",
+            "score": 131
+        },
+        {
+            "name": "GME",
+            "score": 137
+        },
+        {
+            "name": "SNDL",
+            "score": 379
+        }
+    ],
+    [
+        {
+            "name": "PT",
+            "score": 15
+        },
+        {
+            "name": "TRCH",
+            "score": 15
+        },
+        {
+            "name": "AEZS",
+            "score": 16
+        },
+        {
+            "name": "BNGO",
+            "score": 16
+        },
+        {
+            "name": "OCGN",
+            "score": 16
+        },
+        {
+            "name": "GTE",
+            "score": 19
+        },
+        {
+            "name": "TLRY",
+            "score": 20
+        },
+        {
+            "name": "TYME",
+            "score": 20
+        },
+        {
+            "name": "UI",
+            "score": 29
+        },
+        {
+            "name": "ZOM",
+            "score": 33
+        },
+        {
+            "name": "OGI",
+            "score": 44
+        },
+        {
+            "name": "AMC",
+            "score": 57
+        },
+        {
+            "name": "GME",
+            "score": 57
+        },
+        {
+            "name": "SNDL",
+            "score": 123
+        }
+    ],
+    [
+        {
+            "name": "ATOS",
+            "score": 63
+        },
+        {
+            "name": "LEO",
+            "score": 63
+        },
+        {
+            "name": "ATHX",
+            "score": 66
+        },
+        {
+            "name": "MLND",
+            "score": 66
+        },
+        {
+            "name": "PRQR",
+            "score": 66
+        },
+        {
+            "name": "IMO",
+            "score": 102
+        },
+        {
+            "name": "UI",
+            "score": 102
+        },
+        {
+            "name": "E",
+            "score": 125
+        },
+        {
+            "name": "ZOM",
+            "score": 180
+        },
+        {
+            "name": "CTRM",
+            "score": 246
+        },
+        {
+            "name": "NAKD",
+            "score": 310
+        },
+        {
+            "name": "SNDL",
+            "score": 472
+        },
+        {
+            "name": "BB",
+            "score": 951
+        },
+        {
+            "name": "NOK",
+            "score": 1269
+        },
+        {
+            "name": "AMC",
+            "score": 1720
+        },
+        {
+            "name": "GME",
+            "score": 2349
+        }
+    ],
+    [
+        {
+            "name": "VYNE",
+            "score": 42
+        },
+        {
+            "name": "AMC",
+            "score": 43
+        },
+        {
+            "name": "BB",
+            "score": 43
+        },
+        {
+            "name": "SNDL",
+            "score": 44
+        },
+        {
+            "name": "GEVO",
+            "score": 74
+        },
+        {
+            "name": "GSAT",
+            "score": 80
+        },
+        {
+            "name": "NOK",
+            "score": 95
+        },
+        {
+            "name": "BNGO",
+            "score": 111
+        },
+        {
+            "name": "PLUG",
+            "score": 176
+        },
+        {
+            "name": "NAKD",
+            "score": 206
+        },
+        {
+            "name": "ATOS",
+            "score": 490
+        }
+    ],
+    [
+        {
+            "name": "APHA",
+            "score": 55
+        },
+        {
+            "name": "J",
+            "score": 88
+        },
+        {
+            "name": "SNDL",
+            "score": 93
+        },
+        {
+            "name": "PLUG",
+            "score": 100
+        },
+        {
+            "name": "ZOM",
+            "score": 100
+        },
+        {
+            "name": "BB",
+            "score": 164
+        },
+        {
+            "name": "TNXP",
+            "score": 193
+        }
+    ],
+    [
+        {
+            "name": "TNXP",
+            "score": 39
+        },
+        {
+            "name": "BNGO",
+            "score": 46
+        },
+        {
+            "name": "SNDL",
+            "score": 58
+        },
+        {
+            "name": "M",
+            "score": 61
+        },
+        {
+            "name": "PLUG",
+            "score": 62
+        },
+        {
+            "name": "ZOM",
+            "score": 374
+        }
+    ],
+    [
+        {
+            "name": "ACST",
+            "score": 11
+        },
+        {
+            "name": "JAGX",
+            "score": 11
+        },
+        {
+            "name": "NOVN",
+            "score": 11
+        },
+        {
+            "name": "SNDL",
+            "score": 12
+        },
+        {
+            "name": "BBI",
+            "score": 23
+        },
+        {
+            "name": "CHEK",
+            "score": 34
+        },
+        {
+            "name": "ZOM",
+            "score": 89
+        },
+        {
+            "name": "BNGO",
+            "score": 90
+        }
+    ],
+    [
+        {
+            "name": "PSEC",
+            "score": 3
+        },
+        {
+            "name": "PDT",
+            "score": 3
+        },
+        {
+            "name": "ERIC",
+            "score": 4
+        },
+        {
+            "name": "KTRA",
+            "score": 4
+        },
+        {
+            "name": "LULU",
+            "score": 4
+        },
+        {
+            "name": "NIU",
+            "score": 4
+        },
+        {
+            "name": "SPT",
+            "score": 4
+        },
+        {
+            "name": "TAST",
+            "score": 4
+        },
+        {
+            "name": "TRIL",
+            "score": 4
+        },
+        {
+            "name": "VIR",
+            "score": 4
+        },
+        {
+            "name": "NGD",
+            "score": 4
+        },
+        {
+            "name": "ZOM",
+            "score": 4
+        },
+        {
+            "name": "DHI",
+            "score": 4
+        },
+        {
+            "name": "ENBL",
+            "score": 4
+        },
+        {
+            "name": "GFF",
+            "score": 4
+        },
+        {
+            "name": "OCGN",
+            "score": 5
+        },
+        {
+            "name": "RS",
+            "score": 5
+        },
+        {
+            "name": "MSFT",
+            "score": 13
+        },
+        {
+            "name": "BNGO",
+            "score": 22
+        }
+    ],
+    [
+        {
+            "name": "YMTX",
+            "score": 9
+        },
+        {
+            "name": "MVIS",
+            "score": 10
+        },
+        {
+            "name": "KOS",
+            "score": 10
+        },
+        {
+            "name": "SLS",
+            "score": 11
+        },
+        {
+            "name": "PLUG",
+            "score": 12
+        },
+        {
+            "name": "IDEX",
+            "score": 18
+        },
+        {
+            "name": "GF",
+            "score": 27
+        },
+        {
+            "name": "HR",
+            "score": 27
+        },
+        {
+            "name": "GM",
+            "score": 36
+        },
+        {
+            "name": "SNDL",
+            "score": 57
+        },
+        {
+            "name": "X",
+            "score": 68
+        }
+    ],
+    [
+        {
+            "name": "APHA",
+            "score": 7
+        },
+        {
+            "name": "CLRB",
+            "score": 7
+        },
+        {
+            "name": "CLSN",
+            "score": 7
+        },
+        {
+            "name": "NNDM",
+            "score": 7
+        },
+        {
+            "name": "ODT",
+            "score": 7
+        },
+        {
+            "name": "QLGN",
+            "score": 7
+        },
+        {
+            "name": "TNXP",
+            "score": 7
+        },
+        {
+            "name": "ACB",
+            "score": 7
+        },
+        {
+            "name": "TSLA",
+            "score": 9
+        },
+        {
+            "name": "L",
+            "score": 11
+        },
+        {
+            "name": "SLS",
+            "score": 12
+        },
+        {
+            "name": "SNDL",
+            "score": 16
+        },
+        {
+            "name": "BA",
+            "score": 22
+        }
+    ],
+    [
+        {
+            "name": "ENPH",
+            "score": 5
+        },
+        {
+            "name": "MVIS",
+            "score": 5
+        },
+        {
+            "name": "NKLA",
+            "score": 5
+        },
+        {
+            "name": "TSLA",
+            "score": 5
+        },
+        {
+            "name": "FSLY",
+            "score": 5
+        },
+        {
+            "name": "PLTR",
+            "score": 5
+        },
+        {
+            "name": "SNDL",
+            "score": 6
+        },
+        {
+            "name": "UI",
+            "score": 6
+        },
+        {
+            "name": "E",
+            "score": 8
+        },
+        {
+            "name": "M",
+            "score": 8
+        },
+        {
+            "name": "R",
+            "score": 8
+        },
+        {
+            "name": "U",
+            "score": 8
+        },
+        {
+            "name": "NIO",
+            "score": 13
+        },
+        {
+            "name": "OSTK",
+            "score": 18
+        }
+    ],
+    [
+        {
+            "name": "K",
+            "score": 3
+        },
+        {
+            "name": "DM",
+            "score": 4
+        },
+        {
+            "name": "THCB",
+            "score": 6
+        },
+        {
+            "name": "PLTR",
+            "score": 6
+        },
+        {
+            "name": "PSTH",
+            "score": 6
+        },
+        {
+            "name": "RKT",
+            "score": 6
+        },
+        {
+            "name": "XPEV",
+            "score": 6
+        },
+        {
+            "name": "JAGX",
+            "score": 8
+        },
+        {
+            "name": "SNDL",
+            "score": 22
+        }
+    ],
+    [
+        {
+            "name": "SOLO",
+            "score": 8
+        },
+        {
+            "name": "AYRO",
+            "score": 9
+        },
+        {
+            "name": "NAKD",
+            "score": 11
+        },
+        {
+            "name": "ZOM",
+            "score": 11
+        },
+        {
+            "name": "TTNP",
+            "score": 14
+        },
+        {
+            "name": "ID",
+            "score": 33
+        },
+        {
+            "name": "FLR",
+            "score": 50
+        }
+    ],
+    [
+        {
+            "name": "UAVS",
+            "score": 7
+        },
+        {
+            "name": "RSI",
+            "score": 7
+        },
+        {
+            "name": "FCEL",
+            "score": 8
+        },
+        {
+            "name": "NNDM",
+            "score": 8
+        },
+        {
+            "name": "SNDL",
+            "score": 8
+        },
+        {
+            "name": "ZOM",
+            "score": 8
+        },
+        {
+            "name": "CBAT",
+            "score": 9
+        },
+        {
+            "name": "NOV",
+            "score": 14
+        },
+        {
+            "name": "NAK",
+            "score": 18
+        },
+        {
+            "name": "FSR",
+            "score": 20
+        },
+        {
+            "name": "SFM",
+            "score": 31
+        }
+    ],
+    [
+        {
+            "name": "IBIO",
+            "score": 3
+        },
+        {
+            "name": "DM",
+            "score": 3
+        },
+        {
+            "name": "RKT",
+            "score": 3
+        },
+        {
+            "name": "HMHC",
+            "score": 4
+        },
+        {
+            "name": "GOOGL",
+            "score": 6
+        },
+        {
+            "name": "PLUG",
+            "score": 6
+        },
+        {
+            "name": "RNA",
+            "score": 7
+        },
+        {
+            "name": "NIO",
+            "score": 8
+        },
+        {
+            "name": "ACB",
+            "score": 12
+        },
+        {
+            "name": "SNDL",
+            "score": 21
+        }
+    ],
+    [
+        {
+            "name": "MARA",
+            "score": 2
+        },
+        {
+            "name": "MVIS",
+            "score": 2
+        },
+        {
+            "name": "TTNP",
+            "score": 2
+        },
+        {
+            "name": "INUV",
+            "score": 2
+        },
+        {
+            "name": "NTEC",
+            "score": 3
+        },
+        {
+            "name": "GNUS",
+            "score": 4
+        },
+        {
+            "name": "TUP",
+            "score": 24
+        }
+    ],
+    [
+        {
+            "name": "GOVX",
+            "score": 2
+        },
+        {
+            "name": "IMAC",
+            "score": 2
+        },
+        {
+            "name": "LLIT",
+            "score": 2
+        },
+        {
+            "name": "MARA",
+            "score": 2
+        },
+        {
+            "name": "TSLA",
+            "score": 2
+        },
+        {
+            "name": "GBR",
+            "score": 2
+        },
+        {
+            "name": "NBA",
+            "score": 2
+        },
+        {
+            "name": "PINS",
+            "score": 2
+        },
+        {
+            "name": "RIOT",
+            "score": 4
+        },
+        {
+            "name": "MEG",
+            "score": 7
+        },
+        {
+            "name": "EV",
+            "score": 14
+        },
+        {
+            "name": "IDEX",
+            "score": 22
+        }
+    ],
+    [
+        {
+            "name": "HBP",
+            "score": 2
+        },
+        {
+            "name": "STAF",
+            "score": 2
+        },
+        {
+            "name": "FUBO",
+            "score": 2
+        },
+        {
+            "name": "NIO",
+            "score": 3
+        },
+        {
+            "name": "GEVO",
+            "score": 10
+        }
+    ],
+    [
+        {
+            "name": "OAS",
+            "score": 2
+        },
+        {
+            "name": "OPTT",
+            "score": 2
+        },
+        {
+            "name": "CHWY",
+            "score": 3
+        },
+        {
+            "name": "D",
+            "score": 3
+        },
+        {
+            "name": "SNDL",
+            "score": 5
+        }
+    ],
+    [
+        {
+            "name": "FCEL",
+            "score": 3
+        },
+        {
+            "name": "WWR",
+            "score": 3
+        },
+        {
+            "name": "NAK",
+            "score": 20
+        }
+    ],
+    [
+        {
+            "name": "PDT",
+            "score": 2
+        },
+        {
+            "name": "GEVO",
+            "score": 3
+        },
+        {
+            "name": "SPI",
+            "score": 5
+        },
+        {
+            "name": "USIO",
+            "score": 5
+        },
+        {
+            "name": "LAC",
+            "score": 6
+        },
+        {
+            "name": "W",
+            "score": 9
+        },
+        {
+            "name": "SJR",
+            "score": 10
+        }
+    ]
+]

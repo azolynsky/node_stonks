@@ -7,14 +7,15 @@ async function main() {
   var symbols = await getSymbols()
   console.log(symbols.length)
 
-  const WEEKS_BACK = 5;
+  const WEEKS_BACK = 20;
+  const SUBREDDIT = "robinhoodpennystocks";
 
   var weekWeights = [];
-  for (var i = 1; i <= WEEKS_BACK; i++){
-    const weekComments = await getComments((i*7+7)+"d", (i*7)+"d");
+  for (var i = 0; i <= WEEKS_BACK; i++){
+    const weekComments = await getComments(SUBREDDIT, (i*7+7)+"d", (i*7)+"d");
     const weekSymbolWeights = _.sortBy(symbols.map(s => { return { name: s, score: _.sumBy(weekComments.filter(c => {
-      var regex = new RegExp("[$ \n\r]("+s.toLowerCase()+")[\. \!\?]", "g");
-      return regex.test(c.body.toLowerCase());
+      var regex = new RegExp("[$ \n\r]("+s+")[\. \!\?\,]", "g");
+      return regex.test(c.body);
     }), "score") } }).filter(sw => sw.score > 0), "score");
 
     weekWeights = [...weekWeights, weekSymbolWeights];
@@ -22,6 +23,8 @@ async function main() {
     console.log(`${i} week(s) ago: `)
     prettyPrintWeights(weekSymbolWeights);
   }
+
+  console.log(JSON.stringify(weekWeights));
 }
 
 main();
@@ -62,7 +65,7 @@ async function getPosts() {
   })
 }
 
-async function getComments(start, end, searchTerm) {
+async function getComments(subreddit, start, end, searchTerm) {
   return new Promise((resolve, reject) => {
     let suffix = ""
     suffix += start ? `&after=${start}` : "";
@@ -70,7 +73,7 @@ async function getComments(start, end, searchTerm) {
     suffix += searchTerm ? `&q=${searchTerm}` : "";
 
     try{
-      fetch("http://api.pushshift.io/reddit/comment/search?subreddit=robinhoodpennystocks&sort_type=score&sort=desc&size=500" + suffix)
+      fetch(`http://api.pushshift.io/reddit/comment/search?subreddit=${subreddit}&sort_type=score&sort=desc&size=500${suffix}`)
         .then(response => response.json())
         .then(data => {resolve(data.data)})
     }
@@ -79,8 +82,4 @@ async function getComments(start, end, searchTerm) {
       reject(err)
     }
   })
-}
-
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
 }
