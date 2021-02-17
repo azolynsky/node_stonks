@@ -4,16 +4,18 @@ const _ = require('lodash');
 
 async function main() {
   console.log("working")
-
   var symbols = await getSymbols()
-
   console.log(symbols.length)
 
-  var weekWeights = [];
-  for (var i = 1; i <= 5; i++){
-    const weekComments = await getComments((i*7+7)+"d", (i*7)+"d");
+  const WEEKS_BACK = 5;
 
-    const weekSymbolWeights = _.sortBy(symbols.map(s => { return { name: s, score: _.sumBy(weekComments.filter(c => c.body.toLowerCase().includes(` ${s.toLowerCase()} `)), "score") } }).filter(sw => sw.score > 0), "score");
+  var weekWeights = [];
+  for (var i = 1; i <= WEEKS_BACK; i++){
+    const weekComments = await getComments((i*7+7)+"d", (i*7)+"d");
+    const weekSymbolWeights = _.sortBy(symbols.map(s => { return { name: s, score: _.sumBy(weekComments.filter(c => {
+      var regex = new RegExp("[$ \n\r]("+s.toLowerCase()+")[\. \!\?]", "g");
+      return regex.test(c.body.toLowerCase());
+    }), "score") } }).filter(sw => sw.score > 0), "score");
 
     weekWeights = [...weekWeights, weekSymbolWeights];
 
